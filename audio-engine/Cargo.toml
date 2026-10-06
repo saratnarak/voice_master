@@ -1,0 +1,14 @@
+[package]
+name = "audio-engine"
+version = "0.1.0"
+edition = "2021"
+description = "High-performance audio processing engine for Voice Studio"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+# Low-level audio I/O & DSP dependencies (placeholders / recommendations)
+# cpal = "0.15"
+# symphonia = "0.5"
+# rubato = "0.15"
